@@ -1,0 +1,8 @@
+* Support multi-user environment (make sure correct taskbar is resized).
+* Monitor manual taskbar resizing and remember the new width as desired. (Problem: when sleeping, cannot detect mouse actions.)
+* Store the changed desired width back into INI.
+* Test and support other taskbar positions.
+* Detect taskbar positions changing dynamically.
+* Use different desired sizes for different taskbar positions.
+* Monitor INI changes and reread them without restarting application.
+* Add an optional hotkey for exit.
